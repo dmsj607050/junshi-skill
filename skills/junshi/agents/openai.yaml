@@ -1,0 +1,13 @@
+interface:
+  display_name: 军师，速来相助
+  short_description: 分析关系信号，像朋友一样直说，给证据和具体的下一步建议
+  default_prompt: 用 $junshi 帮我看看这个人和这段关系。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
